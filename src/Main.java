@@ -58,6 +58,20 @@ public class Main {
         // valeur de x : 7
         // valeur de x : 8
         // valeur de x : 9
+
+        // Example: La boucle for ... each
+        int tab[] = {100, 105, 110, 115, 120};
+        int itemIndex = 0;
+        for (int item : tab) {
+            System.out.println(String.format("la valeur dans la case %d est %d.", itemIndex, item));
+            itemIndex++;
+        }
+        // Output
+        // la valeur dans la case 0 est 100.
+        // la valeur dans la case 1 est 105.
+        // la valeur dans la case 2 est 110.
+        // la valeur dans la case 3 est 115.
+        // la valeur dans la case 4 est 120.
     }
 
 }
