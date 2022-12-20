@@ -1,62 +1,63 @@
 public class Main {
     public static void main(String[] args) {
-        // Les structures conditionnelles
+        // Les structures répétitives (3 structures)
+        // 1. La boucle while
+        // 2. La boucle for
+        // 3. La boucle do…while
 
-        // Example 1: if…else syntax
-        // Output: x est supérieur à y
-        int x, y;
-        x = 15;
-        y = 13;
-        if (x > y) {
-            System.out.println("x est supérieur à y");
-        } else {
-            System.out.println("y est supérieur à x");
+        // Example: La boucle while
+        int x = 1;
+        while (x < 10) {
+            System.out.print("valeur de x : " + x);
+            x++;
+            System.out.print("\n");
         }
+        // Output
+        // valeur de x : 1
+        // valeur de x : 2
+        // valeur de x : 3
+        // valeur de x : 4
+        // valeur de x : 5
+        // valeur de x : 6
+        // valeur de x : 7
+        // valeur de x : 8
+        // valeur de x : 9
 
-        // Example 2: nested if…else syntax (if imbriqués)
-        // Output: A = 40 et B = 20
-        int a = 40;
-        int b = 20;
-        if (a == 40) {
-            if (b == 20) {
-                System.out.println("A = 40 et B = 20");
-            }
+
+        // Example: La boucle for
+
+        for (int x1 = 1; x1 < 10; x1 = x1 + 1) {
+            System.out.print("valeur de x : " + x1);
+            System.out.print("\n");
         }
+        // Output
+        // valeur de x : 1
+        // valeur de x : 2
+        // valeur de x : 3
+        // valeur de x : 4
+        // valeur de x : 5
+        // valeur de x : 6
+        // valeur de x : 7
+        // valeur de x : 8
+        // valeur de x : 9
 
-        // Example 3: nested if…elseif ... else  syntax (if multiple case test)
-        // Output: L'entier 24 est divisible par 8
-        int entier;
-        entier = 24;
-        if (entier % 5 == 0 && entier % 8 == 0) {
-            System.out.println("L'entier " + entier + " est divisible par les 5 et 8");
-        } else if (entier % 8 == 0) {
-            System.out.println("L'entier " + entier + " est divisible par 8");
-        } else if (entier % 5 == 0) {
-            System.out.println("L'entier " + entier + " est divisible par 5");
-        } else {
-            System.out.println("L'entier " + entier + " est non divisible");
-        }
-
-        // Example 3: Switch/Case syntax
-        // Output: Bonjour
-        direBonjour(1);
+        // Example: La boucle do…while
+        int x2 = 1;
+        do {
+            System.out.print("valeur de x : " + x2);
+            x2++;
+            System.out.print("\n");
+        } while (x2 < 10);
+        // Output
+        // valeur de x : 1
+        // valeur de x : 2
+        // valeur de x : 3
+        // valeur de x : 4
+        // valeur de x : 5
+        // valeur de x : 6
+        // valeur de x : 7
+        // valeur de x : 8
+        // valeur de x : 9
     }
 
-    static public void direBonjour(int choix) {
-
-        switch (choix) {
-
-            case 1:
-                System.out.println("Bonjour");
-                break;
-            case 2:
-                System.out.println("Hello");
-                break;
-
-            default:
-                System.out.println("Choix incorrect");
-                break;
-        }
-
-    }
 }
