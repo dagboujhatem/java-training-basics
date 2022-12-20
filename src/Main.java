@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        // Les structures répétitives (3 structures)
+        // Les structures répétitives (4 structures)
         // 1. La boucle while
         // 2. La boucle for
         // 3. La boucle do…while
+        // 4. La boucle for ... each
 
         // Example: La boucle while
         int x = 1;
