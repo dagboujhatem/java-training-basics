@@ -4,7 +4,7 @@ public class Main {
         // 1. La boucle while
         // 2. La boucle for
         // 3. La boucle do…while
-        // 4. La boucle for ... each
+        // 4. La boucle for ... each (introduit dans Java 5)
 
         // Example: La boucle while
         int x = 1;
