@@ -20,6 +20,7 @@ public class Main {
         System.out.println(i1); // Output: 2
 
         // Le casting peut être appliqué au classes
+        // Link: http://www.javacoding.fr/le-cast-en-java-downcasting-et-upcasting/#:~:text=Casting%20%3A,est%20un%20langage%20fortement%20typ%C3%A9.
 
         // Example 3: Upcasting: classe fille => classe mère, il se fait d’une manière implicite.
         String str1 = "Hello world";
