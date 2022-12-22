@@ -6,6 +6,9 @@ public class Main {
         //isActivated = false; // ERROR: cannot assign a value to final variable isActivated
         System.out.println(isActivated);
 
+        // une constante PI
+        final float PI = 3.14F;
+        System.out.println(PI);
 
     }
 }
