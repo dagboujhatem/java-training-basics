@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="Le casting dans Java">
+    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="Les boucles en Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4_Les_structures_conditionnelles" />
+        <entry key="$PROJECT_DIR$" value="4_Les_structures_répétitives" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671577740076</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Les boucles en Java">
+      <created>1671745658760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671745658760</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,12 +169,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
     <MESSAGE value="add comment" />
     <MESSAGE value="add README file" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="L'opérateur ternaire dans Java" />
     <MESSAGE value="Les structures répétitives dans Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Les structures répétitives dans Java" />
+    <MESSAGE value="Les boucles en Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les boucles en Java" />
   </component>
 </project>
