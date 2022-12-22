@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="L'instruction break &amp; continue en Java">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="Création une archive Java (JAR file) et l'éxécuter">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671746679692</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Création une archive Java (JAR file) et l'éxécuter">
+      <created>1671750115449</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671750115449</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +197,7 @@
     <MESSAGE value="Les structures répétitives dans Java" />
     <MESSAGE value="Les boucles en Java" />
     <MESSAGE value="L'instruction break &amp; continue en Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="L'instruction break &amp; continue en Java" />
+    <MESSAGE value="Création une archive Java (JAR file) et l'éxécuter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création une archive Java (JAR file) et l'éxécuter" />
   </component>
 </project>
