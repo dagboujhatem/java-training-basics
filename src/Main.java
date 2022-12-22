@@ -61,6 +61,9 @@ public class Main {
         // valeur de x : 9
 
         // Example: La boucle for ... each
+        // Inconvénient de ce boucle
+        // 1. On a pas l'accès à l'index du l'élémént en cours
+        // 2. Les sens du boucle est toujours de gauche à droite (de l'indice 0 à n) et y a pas de mécanisme pour boucler inversement.
         int tab[] = {100, 105, 110, 115, 120};
         int itemIndex = 0;
         for (int item : tab) {
