@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="Abstract calass &amp; method in java">
-      <change afterPath="$PROJECT_DIR$/src/EmailService.java" afterDir="false" />
+    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="Couplage fort in java">
+      <change afterPath="$PROJECT_DIR$/src/MessageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
         <option value="Kotlin File" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -32,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="23_abstact_class" />
+        <entry key="$PROJECT_DIR$" value="24_couplage_fort" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -234,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671812561474</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Couplage fort in java">
+      <created>1671813306622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671813306622</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Couplage fort in java">
+      <created>1671813317183</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671813317183</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +281,7 @@
     <MESSAGE value="equals &amp; hashcode in  java" />
     <MESSAGE value="Polymorphism in  java" />
     <MESSAGE value="Abstract calass &amp; method in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract calass &amp; method in java" />
+    <MESSAGE value="Couplage fort in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Couplage fort in java" />
   </component>
 </project>
