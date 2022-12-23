@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="La redéfinition des méthode dans Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="18_override" />
+        <entry key="$PROJECT_DIR$" value="19_upcasting" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +106,7 @@
       <workItem from="1671546304309" duration="5788000" />
       <workItem from="1671552331574" duration="1362000" />
       <workItem from="1671567848426" duration="2780000" />
+      <workItem from="1671789098957" duration="3266000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1671546565597</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671759695389</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="La redéfinition des méthode dans Java">
+      <created>1671760365851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671760365851</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
