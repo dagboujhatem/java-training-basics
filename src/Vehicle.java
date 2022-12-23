@@ -20,4 +20,11 @@ public class Vehicle {
     public boolean isStarted() {
         return started;
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle {" +
+                "started=" + started +
+                '}';
+    }
 }

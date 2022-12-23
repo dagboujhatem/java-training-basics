@@ -17,4 +17,11 @@ public class Car extends Vehicle {
     public void setModelName(String modelName) {
         this.modelName = modelName;
     }
+
+    @Override
+    public String toString() {
+        return "Car {" +
+                "modelName='" + modelName + '\'' +
+                '}';
+    }
 }
