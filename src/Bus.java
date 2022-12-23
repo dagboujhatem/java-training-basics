@@ -9,4 +9,9 @@ public class Bus extends Vehicle {
         super.start();
         System.out.println("The bus has been started.");
     }
+
+    @Override
+    public void accelerate() {
+        System.out.println("The car is accelerating.");
+    }
 }

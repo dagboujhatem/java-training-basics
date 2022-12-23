@@ -1,4 +1,5 @@
-public class Vehicle {
+// classe abstraite
+public abstract class Vehicle {
     protected boolean started;
 
     public Vehicle() {
@@ -20,6 +21,9 @@ public class Vehicle {
     public boolean isStarted() {
         return started;
     }
+
+    // methode abstraite
+    public abstract void accelerate();
 
     @Override
     public String toString() {

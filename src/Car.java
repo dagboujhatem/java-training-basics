@@ -35,4 +35,9 @@ public class Car extends Vehicle {
                 "modelName='" + modelName + '\'' + ", isStarted=" + super.started +
                 '}';
     }
+
+    @Override
+    public void accelerate() {
+        System.out.println("The bus is accelerating.");
+    }
 }
