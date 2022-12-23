@@ -1,4 +1,4 @@
-public class EmailService implements MessageService {
+public class EmailServiceImpl implements MessageService {
     private String ID;
 
     @Override

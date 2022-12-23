@@ -1,7 +1,11 @@
 public class MyApp {
-    private EmailService emailService = new EmailService();
+    private MessageService messageService;
+
+    public MyApp(MessageService messageService) {
+        this.messageService = messageService;
+    }
 
     public void processMessages(String message, String receiver) {
-        emailService.sendEmail(message, receiver);
+        this.messageService.sendEmail(message, receiver);
     }
 }
