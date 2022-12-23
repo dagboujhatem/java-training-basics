@@ -5,26 +5,15 @@ public class Main {
         // L'heritage dans Java (Inheritance of classes)
         var voiture = new Vehicle();
         voiture.start();
-        System.out.println(voiture.isStarted());
+        print(voiture);
 
         // using Car
         var car1 = new Car("BMW");
         car1.start();
-        System.out.println(car1.isStarted());
+        print(car1);
+    }
 
-        var car2 = new Car("KIA");
-        car2.start();
-        System.out.println(car2.isStarted());
-
-        // Les méthodes de la classe object
-        // hashcode
-        System.out.println(car1.hashCode());
-        System.out.println(car2.hashCode());
-        // toString
-        System.out.println(car1.toString());
-        System.out.println(car2.toString());
-        // isEqual
-        System.out.println(car1.equals(car1));
-        System.out.println(car1.equals(car2));
+    public static void print(Vehicle vehicle) {
+        System.out.println(vehicle);
     }
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="La classe object dans Java" />
+    <list default="true" id="a2d6565f-8dca-4f9a-8be3-789c8058e129" name="Changes" comment="La redéfinition des méthode dans Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="16_heritage" />
+        <entry key="$PROJECT_DIR$" value="18_override" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671759326545</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="La redéfinition des méthode dans Java">
+      <created>1671759695389</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671759695389</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +224,7 @@
     <MESSAGE value="Les classes dans Java" />
     <MESSAGE value="L'héritage dans Java" />
     <MESSAGE value="La classe object dans Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="La classe object dans Java" />
+    <MESSAGE value="La redéfinition des méthode dans Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="La redéfinition des méthode dans Java" />
   </component>
 </project>

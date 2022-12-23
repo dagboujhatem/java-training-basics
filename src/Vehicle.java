@@ -1,5 +1,5 @@
 public class Vehicle {
-    private boolean started;
+    protected boolean started;
 
     public Vehicle() {
         this.started = false;

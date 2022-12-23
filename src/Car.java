@@ -21,7 +21,7 @@ public class Car extends Vehicle {
     @Override
     public String toString() {
         return "Car {" +
-                "modelName='" + modelName + '\'' +
+                "modelName='" + modelName + '\'' + ", isStarted=" + super.started +
                 '}';
     }
 }
