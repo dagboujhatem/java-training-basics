@@ -1,6 +1,14 @@
 public class Vehicle {
     private boolean started;
 
+    public Vehicle() {
+        this.started = false;
+    }
+
+    public Vehicle(boolean started) {
+        this.started = started;
+    }
+
     public void start() {
         this.started = true;
     }
