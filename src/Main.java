@@ -11,7 +11,13 @@ public class Main {
         print(car1);
     }
 
-    public static void print(Vehicle vehicle) { // vous pouvez aussi utiliser print(Object vehicle)
+    public static void print(Vehicle vehicle) {
+        if (vehicle instanceof Car) {
+            Car c = (Car) vehicle; // ClassCastException
+            c.setModelName("Audi");
+            System.out.println("Down casting");
+        }
+
         System.out.println(vehicle);
     }
 }
