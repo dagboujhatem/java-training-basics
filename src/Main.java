@@ -22,6 +22,11 @@ public class Main {
         //maintenant freiner la voiture Renault
         renault.freiner();
 
+        // On peut l'aiser Java choisir le type de reférence à travers le mot clé var
+        var myAccount1 = new BankAccount();
+        var myAccount2 = new BankAccount();
 
+        System.out.println("Le nombre des comptes est : " + BankAccount.numberOfBankAccount);
+        BankAccount.showNumberOfAccount();
     }
 }
