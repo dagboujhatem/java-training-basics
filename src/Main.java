@@ -5,14 +5,14 @@ public class Main {
         // le couplage faible en Java
         EmailServiceImpl emailService = new EmailServiceImpl();
         MyApp app = new MyApp();
-        app.setMessageService(emailService); // injection par setter
-        app.processMessages("Hello", "Daghbouj Hatem");
+        // injection par méthode
+        app.processMessages(emailService, "Hello", "Daghbouj Hatem");
 
         // je peux changer aussi le service et refaire la méthode
         // NOTE: généralement c'est utilisé dans les cas ou l'implémentation du service change aec le temps
+        // De plus, cette façon gatrantie qu'on peut pas oublier d'appeler le setter avant de faire la méthode
         SMSServiceImpl smsService = new SMSServiceImpl();
-        app.setMessageService(smsService);
-        app.processMessages("hello", "fom Paris.");
+        app.processMessages(smsService, "hello", "fom Paris.");
     }
 
 }
